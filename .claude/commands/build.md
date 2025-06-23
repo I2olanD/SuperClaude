@@ -1,9 +1,10 @@
-## Legend  
-| Symbol | Meaning | | Abbrev | Meaning |
-|--------|---------|---|--------|---------|
-| → | leads to | | bld | build |
-| & | and/with | | impl | implementation |
-| w/ | with | | TDD | test-driven development |
+## Legend
+
+| Symbol | Meaning  |     | Abbrev | Meaning                 |
+| ------ | -------- | --- | ------ | ----------------------- |
+| →      | leads to |     | bld    | build                   |
+| &      | and/with |     | impl   | implementation          |
+| w/     | with     |     | TDD    | test-driven development |
 
 @include shared/command-templates.yml#Command_Header
 
@@ -12,9 +13,14 @@ Build project/feature based on req in $ARGUMENTS.
 @see shared/mcp-flags.yml ∀ MCP controls
 
 Examples:
+
+- `/user:build --flutter --magic` - Flutter app w/ UI gen
 - `/user:build --react --magic` - React app w/ UI gen
+- `/user:build --blazor --magic` - Blazor app w/ UI gen
+- `/user:build --dotnet --magic` - dotnet application
 - `/user:build --api --c7` - API w/ docs
 - `/user:build --react --magic --pup` - Build & test UI
+- `/user:build --flutter --magic --pup` - Build & test UI
 
 Pre-build: Remove artifacts (dist/, build/, .next/) | Clean temp files & cache | Validate deps | Remove debug
 
@@ -24,8 +30,10 @@ Build modes:
 **--tdd:** Write failing tests→minimal code→pass tests→refactor
 
 Templates:
+
+- **Flutter:** FVM|FLutter|Dart|Roverpod|iOS|Android mgmt|testing
 - **React:** Vite|TS|Router|state mgmt|testing
-- **API:** Express|TS|auth|validation|OpenAPI  
+- **API:** Express|TS|auth|validation|OpenAPI
 - **Fullstack:** React+Node.js+Docker
 - **Mobile:** React Native+Expo
 - **CLI:** Commander.js+cfg+testing
@@ -38,3 +46,4 @@ Templates:
 Workflow: Research→Setup→Impl→Test→Integrate
 
 Deliverables: Working code, tests, docs, integration instructions.
+

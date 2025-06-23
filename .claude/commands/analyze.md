@@ -1,9 +1,10 @@
 ## Legend
-| Symbol | Meaning | | Abbrev | Meaning |
-|--------|---------|---|--------|---------|
-| → | leads to | | anlz | analyze |
-| & | and/with | | perf | performance |
-| w/ | with | | arch | architecture |
+
+| Symbol | Meaning  |     | Abbrev | Meaning      |
+| ------ | -------- | --- | ------ | ------------ |
+| →      | leads to |     | anlz   | analyze      |
+| &      | and/with |     | perf   | performance  |
+| w/     | with     |     | arch   | architecture |
 
 @include shared/command-templates.yml#Command_Header
 
@@ -13,8 +14,9 @@ Multi-dimensional analysis on code, arch, or problem in $ARGUMENTS.
 @see shared/mcp-flags.yml ∀ MCP controls
 
 Examples:
+
 - `/user:analyze --code --think` - Code review w/ context
-- `/user:analyze --arch --think-hard` - Deep arch analysis  
+- `/user:analyze --arch --think-hard` - Deep arch analysis
 - `/user:analyze --security --ultrathink` - Comprehensive security audit
 
 Analysis modes:
@@ -23,7 +25,7 @@ Analysis modes:
 
 **--arch:** System design & patterns | Layer coupling | Scalability bottlenecks | Maintainability assessment | Improvement suggestions
 
-**--profile:** CPU, memory, execution time | Network latency, DB queries | Frontend metrics | Bottleneck identification | Optimization recommendations  
+**--profile:** CPU, memory, execution time | Network latency, DB queries | Frontend metrics | Bottleneck identification | Optimization recommendations
 
 **--security:** OWASP top 10 | Auth & authorization | Data handling & encryption | Attack vector identification
 
@@ -38,3 +40,4 @@ Analysis modes:
 Report: `.claudedocs/reports/analysis-<type>-<timestamp>.md` | Create dir: `mkdir -p .claudedocs/reports/` | Ref: "📄 Analysis report→[path]"
 
 Deliverables: Analysis report, root causes, prioritized action plan w/ recommendations.
+

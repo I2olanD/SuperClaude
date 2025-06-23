@@ -1,14 +1,15 @@
 # CLAUDE.md - SuperClaude Cfg
 
-## Legend  
-| Symbol | Meaning | | Abbrev | Meaning |
-|--------|---------|---|--------|---------|
-| → | leads to | | cfg | configuration |
-| & | and/with | | docs | documentation |
-| > | greater than | | ops | operations |
+## Legend
 
-@RULES.md 
-@MCP.md 
+| Symbol | Meaning      |     | Abbrev | Meaning       |
+| ------ | ------------ | --- | ------ | ------------- |
+| →      | leads to     |     | cfg    | configuration |
+| &      | and/with     |     | docs   | documentation |
+| >      | greater than |     | ops    | operations    |
+
+@RULES.md
+@MCP.md
 @PERSONAS.md
 
 ## Core Cfg
@@ -17,7 +18,8 @@
 Philosophy: Code>docs | Simple→complex | Security first
 Communication: Concise format | Symbols: →|&:» | Bullets>prose
 Workflow: TodoRead()→TodoWrite(3+)→Execute | Update immediate
-Stack: React|TS|Vite + Node|Express|PostgreSQL + Git|ESLint|Jest
+Stack Web: Dotnet 8|Blazor + Node|Express|PostgreSQL + Git|ESLint|Jest
+Stack Mobile: Flutter|Dart
 Commands: /user:<command> [flags] | Ex: /user:build --init
 ```
 
@@ -26,7 +28,7 @@ Commands: /user:<command> [flags] | Ex: /user:build --init
 ```yaml
 Activation: Natural language OR command flags
 Flags: --think | --think-hard | --ultrathink
-none: Single file|Basic | think: Multi-file|Standard  
+none: Single file|Basic | think: Multi-file|Standard
 think hard: Architecture|Complex | ultrathink: Redesign|Critical
 Examples: /user:analyze --code --think | /user:design --api --ultrathink
 ```
@@ -81,4 +83,5 @@ Ops: Parallel>sequential | Batch similar | One in-progress
 ```
 
 ---
-*SuperClaude v4.0.0 | Critical load order | Internal Claude cfg*
+
+_SuperClaude v4.0.0 | Critical load order | Internal Claude cfg_

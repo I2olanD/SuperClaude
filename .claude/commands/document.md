@@ -1,29 +1,34 @@
 ## Legend
-| Symbol | Meaning | | Abbrev | Meaning |
-|--------|---------|---|--------|---------|
-| → | leads to | | API | application programming interface |
-| & | and/with | | UX | user experience |
-| w/ | with | | FAQ | frequently asked questions |
+
+| Symbol | Meaning  |     | Abbrev | Meaning                           |
+| ------ | -------- | --- | ------ | --------------------------------- |
+| →      | leads to |     | API    | application programming interface |
+| &      | and/with |     | UX     | user experience                   |
+| w/     | with     |     | FAQ    | frequently asked questions        |
 
 Execute immediately. Add --plan flag if user wants to see plan first.
 
 Create comprehensive docs for code, API, or system specified in $ARGUMENTS.
 
 Flags:
+
 - --api: Generate API docs | --user: Generate user-friendly guides
 - --ultracompressed, --uc: Generate docs w/ ~70% fewer tokens using telegram-style
 
 --api flag:
+
 - Document all endpoints w/ examples | Include request/response formats
 - Specify auth requirements | Document error codes & meanings | Add rate limiting info | Provide code samples→multiple languages
 
 --user flag:
+
 - Create user-friendly guides | Include step-by-step tutorials | Add screenshots or diagrams
 - Write FAQ section | Include troubleshooting guide | Provide real-world examples
 
 Documentation types:
 
 README Documentation:
+
 - Project overview and purpose
 - Installation instructions
 - Quick start guide
@@ -32,6 +37,7 @@ README Documentation:
 - Contributing guidelines
 
 Architecture Documentation:
+
 - System design overview
 - Component relationships
 - Data flow diagrams
@@ -40,6 +46,7 @@ Architecture Documentation:
 - Security architecture
 
 API Documentation:
+
 - Endpoint descriptions
 - HTTP methods and status codes
 - Request/response schemas
@@ -49,6 +56,7 @@ API Documentation:
 - WebSocket events (if applicable)
 
 User Guides:
+
 - Getting started tutorial
 - Feature walkthroughs
 - Best practices guide
@@ -57,6 +65,7 @@ User Guides:
 - Migration guides
 
 Developer Documentation:
+
 - Code structure overview
 - Development setup
 - Testing guidelines
@@ -65,6 +74,7 @@ Developer Documentation:
 - Performance optimization
 
 Documentation standards:
+
 - Use clear, concise language
 - Include practical examples
 - Add visual aids where helpful
@@ -74,6 +84,7 @@ Documentation standards:
 - Test all code examples
 
 When --ultracompressed flag is present:
+
 - Apply shared/ultracompressed.yml rules
 - Generate legend at doc start
 - Remove articles, conjunctions, fillers
@@ -84,6 +95,7 @@ When --ultracompressed flag is present:
 - Target ~70% token reduction
 
 Structure guidelines:
+
 - Logical organization
 - Progressive disclosure
 - Cross-references
@@ -92,6 +104,7 @@ Structure guidelines:
 - Change log maintenance
 
 Documentation Output:
+
 - API documentation: `/docs/api/`
 - User guides: `/docs/guides/`
 - Architecture docs: `/docs/architecture/`
@@ -102,3 +115,4 @@ Documentation Output:
 - Update `/docs/index.md` with new documentation links
 
 Deliverables: Complete documentation matching the specified type, working code examples, visual aids or diagrams as needed, and quick reference guide.
+

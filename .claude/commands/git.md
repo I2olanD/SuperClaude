@@ -1,9 +1,10 @@
 ## Legend
-| Symbol | Meaning | | Abbrev | Meaning |
-|--------|---------|---|--------|---------|
-| → | leads to | | repo | repository |
-| & | and/with | | sync | synchronize |
-| w/ | with | | chkpt | checkpoint |
+
+| Symbol | Meaning  |     | Abbrev | Meaning     |
+| ------ | -------- | --- | ------ | ----------- |
+| →      | leads to |     | repo   | repository  |
+| &      | and/with |     | sync   | synchronize |
+| w/     | with     |     | chkpt  | checkpoint  |
 
 @include shared/command-templates.yml#Command_Header
 
@@ -12,9 +13,10 @@ Manage git workflows for repo in $ARGUMENTS.
 @see shared/thinking-modes.yml ∀ thinking flags
 
 Examples:
+
 - `/user:git --status` - Comprehensive repo status
 - `/user:git --commit "Add feature"` - Create commit
-- `/user:git --branch feature/ui` - Create & switch→branch  
+- `/user:git --branch feature/ui` - Create & switch→branch
 - `/user:git --sync` - Fetch, pull & push
 - `/user:git --merge develop --think` - Merge w/ conflict analysis
 
@@ -45,3 +47,4 @@ Git operations:
 Workflow: Check status→Create chkpt→Execute→Verify→Sync
 
 Deliverables: Updated repo state, commit history, branch mgmt, remote sync.
+
