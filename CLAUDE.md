@@ -17,7 +17,7 @@
 Philosophy: Code>docs | Simple→complex | Security first
 Communication: Concise format | Symbols: →|&:» | Bullets>prose
 Workflow: TodoRead()→TodoWrite(3+)→Execute | Update immediate
-Stack Web: Dotnet|Blazor + Dotnet|MySQL + Git|ESLint|Jest
+Stack Web: Angular|Vue|React + Express|Postgres + Git|ESLint|Jest
 Stack Mobile: Flutter|Dart
 Commands: /user:<command> [flags] | Ex: /user:build --init
 ```

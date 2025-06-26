@@ -107,7 +107,7 @@ Our UltraCompressed mode strips unnecessary tokens without losing clarity. More 
 ```bash
 /persona:frontend
 /user:build --react --magic  # AI-generated components
-/user:test --e2e --pup       # See it work in a real browser
+/user:test --e2e      # See it work in a real browser
 /user:improve --quality      # Polish until it shines
 ```
 
