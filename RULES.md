@@ -92,13 +92,6 @@ Rules: One in_progress|Update immediate|Track blockers
 Integration: /user:scan --validate→execute | Risky→checkpoint | Failed→rollback
 ```
 
-### Tools & MCP
-
-```yaml
-Native: Appropriate tool|Batch|Validate|Handle failures|Native>MCP(simple)
-MCP: C7→Docs | Seq→Complex | Pup→Browser | Magic→UI | Monitor tokens
-```
-
 ### Performance [H:8]
 
 ```yaml
@@ -240,4 +233,3 @@ Integration: Security: shared/*.yml | Ambiguity: analyzer→clarify | shared/imp
 ---
 
 _SuperClaude v4.0.0 | C=CRITICAL H=HIGH M=MEDIUM | Optimized ops rules_
-

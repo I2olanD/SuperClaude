@@ -9,7 +9,6 @@
 | >      | greater than |     | ops    | operations    |
 
 @RULES.md
-@MCP.md
 @PERSONAS.md
 
 ## Core Cfg
@@ -18,7 +17,7 @@
 Philosophy: Code>docs | Simple→complex | Security first
 Communication: Concise format | Symbols: →|&:» | Bullets>prose
 Workflow: TodoRead()→TodoWrite(3+)→Execute | Update immediate
-Stack Web: Dotnet 8|Blazor + Node|Express|PostgreSQL + Git|ESLint|Jest
+Stack Web: Dotnet|Blazor + Dotnet|MySQL + Git|ESLint|Jest
 Stack Mobile: Flutter|Dart
 Commands: /user:<command> [flags] | Ex: /user:build --init
 ```
@@ -64,7 +63,6 @@ Output: Code only | No explanation unless asked
 
 ```yaml
 Models: Simple→sonnet | Complex→sonnet-4 | Critical→opus-4
-MCP: C7 progressive loading | Seq adaptive thinking | Batch similar
 Efficiency: Min tokens | Cache results | Batch ops
 ```
 

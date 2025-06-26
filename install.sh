@@ -59,7 +59,7 @@ mkdir -p "$HOME/.claude/commands/shared"
 
 # Copy main configuration files
 echo "Copying configuration files..."
-cp CLAUDE.md RULES.md PERSONAS.md MCP.md "$HOME/.claude/"
+cp CLAUDE.md RULES.md PERSONAS.md "$HOME/.claude/"
 
 # Copy command files
 echo "Copying slash commands..."

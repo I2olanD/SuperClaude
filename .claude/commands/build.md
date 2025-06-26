@@ -16,8 +16,6 @@ Examples:
 
 - `/user:build --flutter --magic` - Flutter app w/ UI gen
 - `/user:build --react --magic` - React app w/ UI gen
-- `/user:build --blazor --magic` - Blazor app w/ UI gen
-- `/user:build --dotnet --magic` - dotnet application
 - `/user:build --api --c7` - API w/ docs
 - `/user:build --react --magic --pup` - Build & test UI
 - `/user:build --flutter --magic --pup` - Build & test UI
@@ -46,4 +44,3 @@ Templates:
 Workflow: Research→Setup→Impl→Test→Integrate
 
 Deliverables: Working code, tests, docs, integration instructions.
-

@@ -125,7 +125,6 @@ The framework includes:
 - **CLAUDE.md** – Core configuration and behaviors
 - **RULES.md** – Engineering standards and practices
 - **PERSONAS.md** – 9 specialized thinking modes
-- **MCP.md** – Smart tool orchestration
 - **18 Commands** – Ready-made workflows
 - **26 Shared Resources** – Battle-tested patterns
 
@@ -265,4 +264,3 @@ SuperClaude isn't just a tool – it's a movement to make AI assistance actually
 _SuperClaude v4.0.0 – Because generic AI assistance isn't good enough anymore._
 
 [⭐ Star us on GitHub](https://github.com/NomenAK/SuperClaude) | [💬 Join the Discussion](https://github.com/NomenAK/SuperClaude/discussions) | [🐛 Report an Issue](https://github.com/NomenAK/SuperClaude/issues)
-

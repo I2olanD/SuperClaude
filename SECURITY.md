@@ -3,7 +3,7 @@
 ## Supported Versions
 
 | Version | Supported |
-|---------|-----------|
+| ------- | --------- |
 | 4.0.x   | ✅ Yes    |
 | < 4.0   | ❌ No     |
 
@@ -21,6 +21,7 @@ We take security seriously. If you discover a security vulnerability, please fol
 ### 📝 Required Information
 
 Please include:
+
 - Description of the vulnerability
 - Steps to reproduce the issue
 - Potential impact assessment
@@ -37,32 +38,36 @@ Please include:
 ## Security Considerations
 
 ### Configuration Framework Security
+
 - SuperClaude is a configuration framework, not executable software
 - No network connections or data transmission
 - Files are stored locally in ~/.claude/
 - Shell scripts have limited system access
 
 ### Installation Security
+
 - install.sh performs file operations only
 - No sudo/admin privileges required
 - Backup existing configurations before installation
 - All operations within user home directory
 
 ### Usage Security
+
 - Configuration files are read-only for Claude Code
 - No sensitive data stored in configurations
 - Slash commands execute through Claude Code's security model
-- MCP integrations follow Claude Code's sandbox restrictions
 
 ## Best Practices
 
 ### For Users
+
 - Review install.sh before execution
 - Keep SuperClaude updated
 - Report suspicious behavior
 - Use official installation methods only
 
 ### For Contributors
+
 - Follow secure coding practices
 - No hardcoded secrets or credentials
 - Validate all user inputs
@@ -71,6 +76,7 @@ Please include:
 ## Scope
 
 This security policy covers:
+
 - SuperClaude configuration files
 - Installation scripts
 - GitHub repository security
@@ -79,6 +85,7 @@ This security policy covers:
 ## Disclaimer
 
 SuperClaude is provided "as is" without warranty. While we strive for security, users are responsible for:
+
 - Reviewing code before installation
 - Using in appropriate environments
 - Following Claude Code security guidelines
@@ -88,4 +95,5 @@ SuperClaude is provided "as is" without warranty. While we strive for security, 
 
 **Questions?** Contact anton.knoery@gmail.com
 
-*SuperClaude v4.0.0 | Security-conscious configuration framework*
+_SuperClaude v4.0.0 | Security-conscious configuration framework_
+
